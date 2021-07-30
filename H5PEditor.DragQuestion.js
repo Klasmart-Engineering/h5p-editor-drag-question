@@ -389,7 +389,8 @@ H5PEditor.widgets.dragQuestion = H5PEditor.DragQuestion = (function ($, DragNBar
         return that.showConfirmationDialog({
           headerText: H5PEditor.t('core', 'pasteError'),
           dialogText: H5PEditor.t('H5P.DragNBar', 'unableToPaste'),
-          confirmText: C.t('ok')
+          confirmText: C.t('ok'),
+          cancelText: ' '
         });
       }
 
