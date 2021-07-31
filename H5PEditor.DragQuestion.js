@@ -131,14 +131,14 @@ H5PEditor.widgets.dragQuestion = H5PEditor.DragQuestion = (function ($, DragNBar
         dialogText: C.t('confirmRemoval'),
         cancelText: C.t('cancel'),
         confirmText: C.t('confirm'),
-      }, handleFormDiaologActions);
+      }, handleFormDialogActions);
     });
 
     /**
      * Callback confirm/cancel action.
      * @param {boolean} [confirmFlag] Which button is clicked.
      */
-    const handleFormDiaologActions = function (confirmFlag) {
+    const handleFormDialogActions = function (confirmFlag) {
       if (!confirmFlag) {
         return false;
       }
