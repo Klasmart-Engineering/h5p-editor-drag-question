@@ -1,8 +1,8 @@
 {
   "title": "Drag Question Editor",
   "majorVersion": 1,
-  "minorVersion": 10,
-  "patchVersion": 13,
+  "minorVersion": 11,
+  "patchVersion": 0,
   "runnable": 0,
   "author": "Joubel",
   "coreApi": {
@@ -35,14 +35,19 @@
       "minorVersion": 5
     },
     {
+      "machineName": "FontKidsLoop",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
       "machineName": "H5P.DragNBar",
       "majorVersion": 1,
-      "minorVersion": 5
+      "minorVersion": 6
     },
     {
       "machineName": "H5P.AdvancedText",
       "majorVersion": 1,
-      "minorVersion": 1
+      "minorVersion": 2
     },
     {
       "machineName": "H5P.Image",
@@ -52,7 +57,7 @@
     {
       "machineName": "H5P.Audio",
       "majorVersion": 1,
-      "minorVersion": 4
+      "minorVersion": 5
     },
     {
       "machineName": "jQuery.ui",
@@ -62,7 +67,7 @@
     {
       "machineName": "H5P.JoubelUI",
       "majorVersion": 1,
-      "minorVersion": 3
+      "minorVersion": 4
     }
   ]
 }
